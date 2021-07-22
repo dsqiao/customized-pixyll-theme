@@ -1,0 +1,47 @@
+h3 {
+    border-bottom: solid 1px rgb(12, 121, 165);
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: rgb(12, 121, 165);
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* ** ** */
+strong {
+    color: rgb(12, 121, 165);
+}
+
+/* > */
+blockquote {
+    padding: 5px 12px;
+    font-style: normal;
+    border-left: 3px solid rgb(12, 121, 165);
+    background-color: rgba(12, 121, 165, 0.08);
+}
+
+/* == == */
+mark {
+    background-color: rgba(12, 121, 165, 0.15);
+}
+
+/* 表格边框 */
+td, th {
+    border: 1px solid #dfe2e5 !important;
+}
+
+/* 隔行背景色 */
+table tr:nth-child(2n), thead {
+    background-color: rgba(12, 121, 165, 0.08);
+}
+
+.CodeMirror.cm-s-inner {
+    background: none;
+}
